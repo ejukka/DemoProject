@@ -7,7 +7,7 @@
  */
 
 import React, {Fragment} from 'react';
-import Header from './src/Header';
+import Header from './src/components/header/header.component';
 import Links from './src/Links';
 import {
   SafeAreaView,
@@ -18,12 +18,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import openURLInBrowser from 'react-native/Libraries/Core/Devtools/openURLInBrowser';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   return (

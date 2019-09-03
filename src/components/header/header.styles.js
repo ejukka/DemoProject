@@ -1,16 +1,5 @@
-import {ImageBackground, StyleSheet, Text} from 'react-native';
+import {StyleSheet} from 'react-native';
 import Colors from 'react-native/Libraries/NewAppScreen/components/Colors';
-import React from 'react';
-
-const Header = () => (
-  <ImageBackground
-    accessibilityRole={'image'}
-    source={require('./oma_wunder_kuva.png')}
-    style={styles.background}
-    imageStyle={styles.logo}>
-    <Text style={styles.text}>Curriculum vitae</Text>
-  </ImageBackground>
-);
 
 const styles = StyleSheet.create({
   background: {
@@ -35,4 +24,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Header;
+export default styles;
