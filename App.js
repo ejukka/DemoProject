@@ -8,7 +8,7 @@
 
 import React, {Fragment} from 'react';
 import Header from './src/components/header/header.component';
-import Links from './src/Links';
+import Links from './src/components/links/links.component';
 import {
   SafeAreaView,
   StyleSheet,
